@@ -1,0 +1,16 @@
+{
+  "name": "phishing-detection-backend",
+  "version": "1.0.0",
+  "description": "Phishing Detection Backend with MVC Pattern",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1"
+  }
+}
